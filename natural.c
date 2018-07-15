@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-    int num,i;
+    int sum,i;
     printf("enter the number:");
-    scanf("%d",&num);
-    for(i=0;i<num;i++)
+    scanf("%d",&sum);
+    for(i=0;i<sum+1;i++)
     {
         printf("\n");
         printf("enter the natural number %d",i);
